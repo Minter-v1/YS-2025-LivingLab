@@ -1,7 +1,7 @@
 ---
 name: feat issue template
 about: 새로운 기능 개발을 위한 이슈를 생성해주세요.
-title: 'Feat: 작업 제목'
+title: 'Feat: 작업 제목입력'
 labels: '' 
 assignees: ''
 ---
