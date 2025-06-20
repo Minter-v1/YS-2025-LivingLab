@@ -1,6 +1,21 @@
 # YS-2025-LivingLab
 2025 유성구청 리빙랩 : 종량제 지급 자동화 프로그램 개발
 
+## 가상환경 생성
+```
+python -m venv venv
+```
+
+## 가상환경 활성화
+```
+source venv/bin/activiate
+```
+
+## 의존성 설치
+```
+pip install -r requirements.txt
+```
+
 
 ## Commit Convention
 
@@ -15,8 +30,3 @@
 | `Refactor` | 내부 코드 구조 개선(변수명 정리, 코드 분리, 모듈화 등) |
 | `Perf` | 성능 최적화(루프 최적화, 중복제거, 연산량 감소 등) |
 
-## Collaboration
-- Gitflow 채택
-
-## Member
-// 수정
