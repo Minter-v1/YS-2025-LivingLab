@@ -45,3 +45,6 @@ jobs:
 
     - name: Run Flake8 (linting)
       run: flake8 src/ --show-source --statistics
+
+    - name: Run Pylint (linting)
+      run: pylint src/
