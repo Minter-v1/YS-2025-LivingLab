@@ -20,4 +20,3 @@ class Config:
         template_path = Path("../../config/config.ini.template")
         destination = Path("../../config/config.ini")
         copyfile(template_path, destination)
-        return
