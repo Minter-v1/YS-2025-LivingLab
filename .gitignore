@@ -4,5 +4,5 @@ venv/
 # 캐시파일
 **/__pycache__/
 
-# tjfwjd vkdlf
+# 설정 파일
 config.ini
