@@ -3,7 +3,7 @@
 address_api = YOUR_API_KEY
 
 ; 도로명주소 API URL (변경 금지)
-addresss_api_url = https://www.juso.go.kr/addrlink/addrLinkApi.do
+addresss_api_url = https://business.juso.go.kr/addrlink/addrLinkApi.do
 
 ; 호출 딜레이
 api_call_delay = 0.1
