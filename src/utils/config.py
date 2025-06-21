@@ -47,7 +47,7 @@ class Config:
     # api키
     def get_api_key(self):
         return self.config.get("API", "address_api", fallback="")
-    
+
     # api url
     def get_api_url(self):
         return self.config.get(
@@ -58,12 +58,8 @@ class Config:
 
     # api 호출 딜레이
     def get_api_delay(self):
-        return self.config.get(
-            "API",
-            "api_call_delay",
-            fallback = 0.1
-        )
-        
+        return self.config.get("API", "api_call_delay", fallback=0.1)
+
     # 지원 확장자
     def get_supported_extensions(self):
         return self.config.get("FILE", "supported_extensions", fallback=".xlsx, .xls")
@@ -90,9 +86,9 @@ class Config:
 
 if __name__ == "__main__":
     config = Config()
-    print(config.get_api_key()) # api 키 
-    print(config.get_api_url()) # api url 
-    print(config.get_api_delay()) # api 호출 딜레이 
+    print(config.get_api_key())  # api 키
+    print(config.get_api_url())  # api url
+    print(config.get_api_delay())  # api 호출 딜레이
     print(config.get_supported_extensions())
     print(config.get_save_path())
     print(config.get_filename())
