@@ -6,3 +6,7 @@ venv/
 
 # 설정 파일
 config.ini
+
+# 엑셀 파일
+results/
+*.xlsx
