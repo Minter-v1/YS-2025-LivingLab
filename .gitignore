@@ -1,3 +1,12 @@
 # 가상환경
-
 venv/
+
+# 캐시파일
+**/__pycache__/
+
+# 설정 파일
+config.ini
+
+# 엑셀 파일
+results/
+*.xlsx

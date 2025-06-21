@@ -1,13 +1,31 @@
 [API]
+; 도로명주소 API
+address_api = YOUR_API_KEY
 
-[PROCESSING]
+; 도로명주소 API URL (변경 금지)
+addresss_api_url = https://business.juso.go.kr/addrlink/addrLinkApi.do
+
+; 호출 딜레이
+api_call_delay = 0.1
+
 
 [FILE]
+; 지원 확장자
+supported_extensions = .xlsx, .xls, .csv
 
-[ADDRESS]
+; 기본 저장 경로
+default_save_path = ./results/
+
+; 결과 파일명 형식
+result_filename_format = {original_name}_처리결과_{date}
+
 
 [UI]
+language = ko
+theme = default
+enable_drag_drop = true
 
-[DUPLICATE]
 
 [OUTPUT]
+
+output_columns = address,  household_count, is_duplicate, duplicate_reason, original_address
