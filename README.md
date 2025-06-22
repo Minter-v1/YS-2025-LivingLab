@@ -8,7 +8,7 @@ python -m venv venv
 
 ## 가상환경 활성화
 ```
-source venv/bin/activiate
+source venv/bin/activate
 ```
 
 ## 의존성 설치
